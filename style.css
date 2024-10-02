@@ -1,0 +1,134 @@
+#hero-section {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url("img/tree2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+  }
+  
+  #headshot-image img {
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border: 5px solid #FFFAF1;
+  }
+  
+  #hero-title {
+    color: white;
+    text-align: center;
+    position: absolute;
+    text-shadow: 2px 2px 5px rgb(0,0,0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  #hero-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    text-shadow: 2px 2px 5px rgb(0,0,0);
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  #inspiration-section {
+    background-color: #673147;
+    color: white;
+    line-height: 20px;
+    padding: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  .carousel-item:after {
+    content:"";
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.3);
+  }
+  
+  .carousel-caption {
+    z-index: 1;
+  }
+  
+  #mission-section {
+    background-color: #FFFAF1;
+    line-height: 30px;
+    padding: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
+  
+  #mission-section img {
+    width: 15vw;
+  }
+  
+  #mission-section p {
+    margin: 30px;
+    font-size: 20px;
+  }
+  
+  #skills-section {
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    padding: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  #skills-section img {
+    margin: 50px;
+    width: 200px;
+  }
+  
+  #contact-section {
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    padding: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  #contact-section h1 {
+    margin: 30px;
+  }
+  
+  #contact-section table {
+    width: 100%;
+  }
+  
+  #footer-section {
+    background-color: #FFFAF1;
+    color: black;
+    line-height: 50px;
+    padding: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
